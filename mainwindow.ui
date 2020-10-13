@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>1</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  background-color: #A40A0A;
+  height: 40px;
+  width: 70px;
+  border-width: 0px;
+  border-radius: 3px;
+}
+
+QPushButton:pressed
+{
+  background-color: #C53434;
+  
+}</string>
+        </property>
+        <property name="text">
+         <string>TOTURIAL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  width:50px;
+  height:50px;
+ background-color:transparent;
+  border-width: 0px;
+  border-radius: 3px;
+   image: url(:/Images/images/icon_01.png);
+}
+
+QPushButton:hover
+{
+  background-color: #A9A9A9;
+  
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  width:50px;
+  height:50px;
+  background-color:transparent;
+  border-width: 0px;
+  border-radius: 3px;
+   image: url(:/Images/images/icon_02.png);
+}
+QPushButton:hover
+{
+  background-color: #A9A9A9;
+  
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  width:50px;
+  height:50px;
+ background-color:transparent;
+  border-width: 0px;
+  border-radius: 3px;
+   image: url(:/Images/images/icon_03.png);
+}
+QPushButton:hover
+{
+  background-color: #A9A9A9;
+  
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnMenuTaskList">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  width:50px;
+  height:50px;
+background-color:transparent;
+  border-width: 0px;
+  border-radius: 3px;
+   image: url(:/Images/images/icon_04.png);
+}
+QPushButton:hover
+{
+  background-color: #A9A9A9;
+  
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+  color: white;
+  background-color: rgb(150, 14, 14);
+  width:30px;
+  height:30px;
+  border-width: 0px;
+  border-radius: 15px;
+}
+QPushButton:hover
+{
+  background-color: rgb(150, 54, 54);
+}</string>
+        </property>
+        <property name="text">
+         <string>F</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="pageLayoutContainer"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

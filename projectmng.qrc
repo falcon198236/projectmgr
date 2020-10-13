@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>images/btn_login_down.png</file>
+        <file>images/btn_login_normal.png</file>
+        <file>images/btn_login_over.png</file>
+        <file>images/icon_01.png</file>
+        <file>images/icon_02.png</file>
+        <file>images/icon_03.png</file>
+        <file>images/icon_04.png</file>
+        <file>images/icon_05.png</file>
+        <file>images/icon_06.png</file>
+        <file>images/btn_switch_off.png</file>
+        <file>images/btn_switch_on.png</file>
+        <file>images/icon_07.png</file>
+    </qresource>
+    <qresource prefix="/person">
+        <file>images/person_01.png</file>
+        <file>images/person_02.png</file>
+    </qresource>
+</RCC>
