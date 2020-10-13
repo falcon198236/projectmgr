@@ -8,15 +8,7 @@ LoginWindow::LoginWindow(QWidget *parent)
     : QDialog(parent)
 {
     ui.setupUi(this);
-
-    //btnLogin->setStyle("border-image:url(:/Images/images/btn_login_normal.png);", "border-image:url(:/Images/images/btn_login_over.png);",
-    //                   "border-image:url(:/Images/images/btn_login_down.png);");
-    //ui.btnLogin->setStyleSheet("border: 2px solid #8f8f91;\
-                            border-radius: 6px;\
-    /                        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\
-     //                                                         stop: 0 #f6f7fa, stop: 1 #dadbde);");
-    ui.lineeditEmail->setText("falcon198236@gmail.com");
-    ui.lineeditPassword->setText("chlthddk2017");
+    ui.lineeditEmail->setText("falcon198236@gmail.com"); //this is my email.
 }
 
 
