@@ -7,6 +7,7 @@
 #include "ui_TaskItem.h"
 #include "mainwindow.h"
 #include "baseview.h"
+#include "photowidget.h"
 class TaskItemWindow: public BaseView
 {
     Q_OBJECT
@@ -22,6 +23,7 @@ private:
 public:
     QJsonObject projectInfo;
     QString m_szProjectID;
+    PhotoWidget *m_photoWidget;
 public:
     void setObject(QJsonObject obj);
 };

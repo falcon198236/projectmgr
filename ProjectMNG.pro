@@ -22,6 +22,7 @@ SOURCES += \
     loginwidnow.cpp \
     main.cpp \
     mainwindow.cpp \
+    photowidget.cpp \
     taskinfowindow.cpp \
     taskitemwindow.cpp \
     tasklistwindow.cpp \
@@ -32,6 +33,7 @@ HEADERS += \
     control/qbitmapbutton.h \
     loginwidnow.h \
     mainwindow.h \
+    photowidget.h \
     taskinfowindow.h \
     taskitemwindow.h \
     tasklistwindow.h \

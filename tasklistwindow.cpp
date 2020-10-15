@@ -12,19 +12,7 @@ TaskListWindow::TaskListWindow(QWidget *parent) : QWidget(parent)
     QScrollArea* scrollArea = new QScrollArea();
     vboxItemContainer = new QVBoxLayout();
     QWidget *widget = new QWidget();
-/*
-    for(int i = 0; i < 10; i ++) {
-        QHBoxLayout *hbox = new QHBoxLayout();
-        TaskItemWindow* taskitem = new TaskItemWindow();
-        taskitem->setFixedHeight(taskitem->height());
-        taskitem->setFixedWidth(taskitem->width());
-        hbox->addSpacerItem(new QSpacerItem(1, 1, QSizePolicy::Expanding,  QSizePolicy::Fixed));
-        hbox->addWidget(taskitem);
-        hbox->addSpacerItem(new QSpacerItem(1, 1, QSizePolicy::Expanding, QSizePolicy::Fixed));
-        vboxItemContainer->addLayout(hbox);
 
-    }
-    */
     widget->setLayout(vboxItemContainer);
     scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -96,6 +84,7 @@ void TaskListWindow::replyFinished(QNetworkReply *e) {
         QJsonObject obj = value.toObject();
         appendItem(obj);
     }
+    vboxItemContainer->addSpacerItem(new QSpacerItem(1, 1, QSizePolicy::Fixed, QSizePolicy::Expanding));
 
 }
 

@@ -249,22 +249,6 @@ border-radius:20px;
               <string>Add me as watcher to tickets created by others</string>
              </property>
             </widget>
-            <widget class="QGraphicsView" name="graphicsView">
-             <property name="geometry">
-              <rect>
-               <x>350</x>
-               <y>10</y>
-               <width>101</width>
-               <height>101</height>
-              </rect>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">width:100px;
-height100px;
-background-color:Red;
-border-radius:50px;</string>
-             </property>
-            </widget>
             <widget class="QPushButton" name="pushButton_5">
              <property name="geometry">
               <rect>

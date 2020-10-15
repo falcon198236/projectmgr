@@ -97,33 +97,6 @@ QPushButton:hover
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="lblPhoto">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>20</y>
-     <width>51</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLabel {
-	width: 50px;
-   height:50px;
-  border: 1px solid white;
- border-radius: 25px;
-background-color:Red;
-}</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QWidget" name="widgetBackground" native="true">
    <property name="geometry">
     <rect>
@@ -197,7 +170,6 @@ border-width:0px;</string>
   <zorder>pushButton</zorder>
   <zorder>pushButton_2</zorder>
   <zorder>lblProjectName</zorder>
-  <zorder>lblPhoto</zorder>
  </widget>
  <resources/>
  <connections/>

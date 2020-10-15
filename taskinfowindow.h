@@ -7,7 +7,7 @@
 #include <QNetworkAccessManager>
 #include "ui_taskInfowindow.h"
 #include "baseview.h"
-
+#include "photowidget.h"
 class TaskInfoWindow: public QWidget
 {
     Q_OBJECT
@@ -21,6 +21,7 @@ private:
 
 public :
     QString m_szProjectID;
+    PhotoWidget *m_photoWidget;
 public:
     void setObject(QString id);
 };

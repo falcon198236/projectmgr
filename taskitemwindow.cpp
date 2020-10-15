@@ -7,6 +7,10 @@ TaskItemWindow::TaskItemWindow(QWidget *parent) : BaseView(parent)
 {
     installEventFilter(this);
     ui.setupUi(this);
+
+    m_photoWidget = new PhotoWidget(this);
+    m_photoWidget->setGeometry(60,15, 50,50);
+    m_photoWidget->setStyleSheet("border-radius:25px;");
     this->setAttribute(Qt::WA_Hover, true);
 }
 bool TaskItemWindow::eventFilter(QObject* object, QEvent* event)
@@ -55,7 +59,8 @@ void TaskItemWindow::setObject(QJsonObject obj) {
     QImage img;
     img.loadFromData(bytes);
     QPixmap pix = QPixmap::fromImage(img).scaled(50,50, Qt::KeepAspectRatio);
-    ui.lblPhoto->setPixmap(pix);
+    m_photoWidget->setPixmap(pix);
+    //ui.lblPhoto->setPixmap(pix);
 
 }
 

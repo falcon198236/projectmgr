@@ -287,49 +287,6 @@ border-radius:20px;
               <string>Add me as watcher to tickets created by others</string>
              </property>
             </widget>
-            <widget class="QGraphicsView" name="gpviewPhoto">
-             <property name="geometry">
-              <rect>
-               <x>350</x>
-               <y>10</y>
-               <width>101</width>
-               <height>101</height>
-              </rect>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">width:100px;
-height100px;
-background-color:Red;
-border-radius:50px;</string>
-             </property>
-            </widget>
-            <widget class="QPushButton" name="btnRemovePhoto">
-             <property name="geometry">
-              <rect>
-               <x>430</x>
-               <y>10</y>
-               <width>21</width>
-               <height>21</height>
-              </rect>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">QPushButton
-{
-  background-color:#888888;
-  border-radius: 10px;
-   image: url(:/Images/images/icon_07.png);
-}
-
-QPushButton:hover
-{
-  background-color:#000000;
-border:1px solid #ffffff;
-}</string>
-             </property>
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
             <widget class="QCheckBox" name="chkWatcher">
              <property name="enabled">
               <bool>true</bool>

@@ -8,7 +8,8 @@ LoginWindow::LoginWindow(QWidget *parent)
     : QDialog(parent)
 {
     ui.setupUi(this);
-    ui.lineeditEmail->setText("falcon198236@gmail.com"); //this is my email.
+    ui.lineeditEmail->setText("vitaliibondtest@gmail.com"); //this is my email.
+    ui.lineeditPassword->setText("vitaliibondtest");
 }
 
 
